@@ -1,0 +1,28 @@
+{
+    "editor.wordWrap": "on",
+    "workbench.colorTheme": "Default High Contrast",
+    "window.autoDetectColorScheme": false,
+    "editor.fontSize": 10,
+    "workbench.colorCustomizations": {
+
+    },
+    "workbench.iconTheme": "vs-seti",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.pinnedTabsOnSeparateRow": false,
+    "workbench.editor.preferHistoryBasedLanguageDetection": false,
+    "workbench.editor.restoreViewState": true,
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.showTabs": "multiple",
+    "workbench.editor.splitInGroupLayout": "horizontal",
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.editor.titleScrollbarSizing": "default",
+    "workbench.editor.wrapTabs": true,
+    "codeui.favoriteColors": {
+        "Teal": "#05f7d6",
+        "Purple": "#6000fc",
+        "Hot Pink": "#fc0564",
+        "Pinkish Red": "#fc053b",  
+        "Pastel Green": "#1eeb51"
+
+    }
+}
