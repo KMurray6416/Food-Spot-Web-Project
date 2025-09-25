@@ -111,12 +111,13 @@ header .navigation li a{
     width: 48%;;
 }
 
-.imgbx {
+/* FIX: Changed class name to .imgBx to match HTML */
+.imgBx {
     width: 100%;
     min-height: 300px;
 }
 
-.imgbx img {
+.imgBx img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -130,6 +131,7 @@ header .navigation li a{
 
 .menu {
     padding: 80px;
+    margin-bottom: 30px;
 }
 
 .title-text {
@@ -147,19 +149,19 @@ header .navigation li a{
 }
 
 .menu-content {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: block;
     margin-top: 40px;
 }
 
 .menu-content .box{
-    width: 340px;
+    width: 100%;
+    max-width: 340px;
     border: 15px solid rgb(255, 13, 94);
     box-shadow: 0px 5px 35px grey;
-    margin: 20px;
+    margin: 30px auto;
 }
 
+/* FIX: Changed class name to .imgBx to match HTML */
 .menu-content .box .imgBx{
     width: 100%;
     height: 300px;
@@ -172,10 +174,13 @@ header .navigation li a{
 
 .expert {
     padding: 80px;
+    margin-bottom: 30px;
 }
+
 .expert .menu-content .box {
-    width: 250px;
-    margin: 30px;
+    width: 100%;
+    max-width: 250px;
+    margin: 30px auto;
     border: 15px solid rgb(255, 13, 94);
     box-shadow: 0 5px 35px grey;
 }
@@ -192,9 +197,7 @@ header .navigation li a{
 }
 
 .testimonial .content {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: block;
     margin-top: 40px;
     max-width: 100%;
 }
@@ -205,9 +208,16 @@ header .navigation li a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     padding: 40px;
-    margin: 20px;
+    margin: 30px auto;
+}
+
+/* FIX: The .img rule did not match the HTML. Changed it to .imgBx */
+.testimonial .content .box .imgBx {
+    width: 100%;
+    height: 300px;
 }
 
 .testimonial .content .box .img {
@@ -215,11 +225,6 @@ header .navigation li a{
     height: 100%;
     border-radius: 48%;
     object-fit: cover;
-}
-
-.testimonial .content .box .imgbx {
-    width: 100%;
-    height: 300px;
 }
 
 .text h2 {
@@ -263,7 +268,7 @@ header .navigation li a{
     font-size: 16px;
     font-weight: 300;
     resize: none;
-}   
+}   
 
 .contact-form .inputbox input[type="submit"] {
     font-size: 1em;
@@ -286,20 +291,20 @@ header .navigation li a{
 }
 
 .footer {
-  background: #ff0157;
-  width: 100%;
-  height: 70px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    background: #ff0157;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .footer p {
-  color: #fff;
-  font-weight: 300;
+    color: #fff;
+    font-weight: 300;
 }
 
 .footer .icons a {
-  color: #fff;
+    color: #fff;
 }
